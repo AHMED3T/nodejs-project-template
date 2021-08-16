@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-project-template",
+  "version": "1.0.0",
+  "description": "Default project template for NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AHMED3T/nodejs-project-template.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "restful",
+    "backend",
+    "express",
+    "template"
+  ],
+  "author": "Ahmed Rasool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AHMED3T/nodejs-project-template/issues"
+  },
+  "homepage": "https://github.com/AHMED3T/nodejs-project-template#readme"
+}
