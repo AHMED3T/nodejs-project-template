@@ -4,7 +4,9 @@
   "description": "Default project template for NodeJS",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "cross-env APP_MODE=DEV nodemon server.js",
+    "start:stage": "cross-env APP_MODE=STAGE nodemon server.js",
+    "start:prod": "cross-env APP_MODE=PROD nodemon server.js"
   },
   "repository": {
     "type": "git",
